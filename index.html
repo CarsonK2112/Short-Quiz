@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="script.css">
+
+    <title>Short Quiz</title>
+</head>
+<body>
+    <h1>Carson's Quiz!</h1>
+    <div id="timer"></div>
+    
+<div id="start_screen" class="section">
+    <button type="button" id="start_button" class="indicator">Start</button>  
+</div>
+
+<div id="game_screen">
+    <div id="question_1" class="hide section">
+    <form>
+        <p>What ancient empire ruled most of Europe?:</p>
+        <input type="radio" id="Rome" name="empire" value="right">
+        <label for="Rome">Rome</label><br>
+        <input type="radio" id="Greece" name="empire" value="wrong">
+        <label for="Greece">Greece</label><br>
+        <input type="radio" id="Germania" name="empire" value="wrong">
+        <label for="Germania">Germania</label>
+        <br> <br>
+        <input id="question_1_submit" type="submit" value="Submit" class="indicator">
+    </form>
+    </div>
+    <div id="question_2" class="hide section">
+        <form>
+            <p>What country is Napoleon from?:</p>
+            <input type="radio" id="Italy" name="country" value="Italy">
+            <label for="Italy">Italy</label><br>
+            <input type="radio" id="France" name="country" value="France">
+            <label for="France">France</label><br>
+            <input type="radio" id="Prussia" name="country" value="Prussia">
+            <label for="Prussia">Prussia</label>
+            <br> <br>
+            <input id="question_2_submit" type="submit" value="Submit" class="indicator">
+        </form>
+    </div>
+    <div id="question_3" class="hide section">
+        <form>
+            <p>Who is the inventor of the lightbulb?:</p>
+            <input type="radio" id="Nikola Tesla" name="inventor" value="Nikola Tesla">
+            <label for="Nikola Tesla">Nikola Tesla</label><br>
+            <input type="radio" id="Alexander Graham Bell" name="inventor" value="Alexander Graham Bell">
+            <label for="Alexander Graham Bell">Alexander Graham Bell</label><br>
+            <input type="radio" id="Thomas Edison" name="inventor" value="Thomas Edison">
+            <label for="Thomas Edison">Thomas Edison</label>
+            <br> <br>
+            <input id="question_3_submit" type="submit" value="Submit" class="indicator">
+        </form>
+    </div>
+    <div id="question_4" class="hide section">
+        <form>
+            <p>What is the largest country in the world?:</p>
+            <input type="radio" id="China" name="country" value="China">
+            <label for="China">China</label><br>
+            <input type="radio" id="Canada" name="country" value="Canada">
+            <label for="Greece">Canada</label><br>
+            <input type="radio" id="Russia" name="country" value="Russia">
+            <label for="Russia">Russia</label>
+            <br> <br>
+            <input id="question_4_submit" type="submit" value="Submit" class="indicator">
+        </form>
+    </div>
+    <div id="question_5" class="hide section">
+        <form>
+            <p>Who was the first computer programmer?:</p>
+            <input type="radio" id="Ada Lovelace" name="programmer" value="Ada Lovelace">
+            <label for="Ada Lovelace">Ada Lovelace</label><br>
+            <input type="radio" id="Alonzo Church" name="programmer" value="Alonzo Church">
+            <label for="Alonzo Church">Alonzo Church</label><br>
+            <input type="radio" id="Joseph Marie Jacquard" name="programmer" value="Joseph Marie Jacquard">
+            <label for="Joseph Marie Jacquard">Joseph Marie Jacquard</label>
+            <br> <br>
+            <input id="question_5_submit" type="submit" value="Submit" class="indicator">
+        </form>
+    </div>
+</div>
+  
+<div id="initals_screen" class="hide section">
+    <h3 id="Initials_input"></h3>
+    
+    <label for="initials">Your initials:</label>
+    <input type="text" id="initials" name="initials">
+    <button type="submit" id="submit_button" value="submit" class="indicator">Submit</button>  
+    <br><br>
+
+</div>
+
+<div id="final_score" class="hide section">
+<p id="demo"></p>
+<p id="demo_two"></p>
+</div>
+
+<script src="script_file.js"></script>
+</body>
+</html>
